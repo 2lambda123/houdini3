@@ -1,0 +1,1814 @@
+repo_name: 2lambda123/houdini3
+report_id: 6285c023b2a5777cd8bdb8563868767a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:20:27+00:00'
+requested_by: wwahammy
+provider: github
+branch: main
+detected_tools_count: 148
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/houdini3
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/houdini3
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/.ruby-version
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/gems/ruby-qx/test/test_insert_user.sql
+  detection_source: gems/ruby-qx/test/test_insert_user.sql
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/houdini3
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.9.4
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/package.json
+  detection_source: package.json
+- name: MobX
+  description: Simple, scalable state management
+  website_url: https://github.com/mobxjs/mobx
+  version: 4.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5302/17475736.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 6.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: Gemfile
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 6.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 1.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile
+  detection_source: Gemfile
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: babel.config.js
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile
+  detection_source: Gemfile
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/package.json
+  detection_source: package.json
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/houdini3
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/.github/workflows/cache-packages.yml
+  detection_source: ".github/workflows/cache-packages.yml"
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 5.6.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 1.48.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/gems/ruby-qx/qx.gemspec
+  detection_source: gems/ruby-qx/qx.gemspec
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.46.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Webpacker
+  description: Use Webpack to manage app-like JavaScript modules in Rails (by Rails)
+  website_url: https://github.com/rails/webpacker
+  version: 5.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: yarn.lock
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 16.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/package.json
+  detection_source: package.json
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile
+  detection_source: Gemfile
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/config/environments/production.rb
+  detection_source: config/environments/production.rb
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: Devise
+  description: Flexible authentication solution for Rails with Warden
+  website_url: https://github.com/plataformatec/devise
+  version: 4.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1432/devise.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: Immutable.js
+  description: Immutable persistent data collections for Javascript which increase
+    efficiency and simplicity, by Facebook
+  website_url: http://facebook.github.io/immutable-js/
+  version: 3.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Ramda
+  description: A practical functional library for JavaScript programmers
+  website_url: https://ramdajs.com/
+  version: 0.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3076/Ramda-01.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/houdini3
+  detection_source: Repo Metadata
+- name: superagent library
+  description: robust and clean node and browser reqest library
+  website_url: https://visionmedia.github.io/superagent/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8032/pBeeJQDQ_normal.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/package.json
+  detection_source: package.json
+- name: yup
+  website_url: https://github.com/jquense/yup
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/package.json
+  detection_source: package.json
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@babel/plugin-proposal-decorators"
+  description: Compile class and object decorators to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-decorators
+  version: 7.19.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 4.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@material-ui/lab"
+  description: Material-UI Lab - Incubator for Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/lab
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 6.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 6.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 6.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 10.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@testing-library/react-hooks"
+  description: Simple and complete React hooks testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react-hooks
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/enzyme"
+  description: TypeScript definitions for Enzyme
+  package_url: https://www.npmjs.com/@types/enzyme
+  version: 3.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/jquery"
+  description: TypeScript definitions for jQuery
+  package_url: https://www.npmjs.com/@types/jquery
+  version: 3.3.38
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16363/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/jsdom"
+  description: TypeScript definitions for jsdom
+  package_url: https://www.npmjs.com/@types/jsdom
+  version: 11.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17003/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.186
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/moment-timezone"
+  description: TypeScript definitions for moment-timezone.js
+  package_url: https://www.npmjs.com/@types/moment-timezone
+  version: 0.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17475/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.37
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/react-test-renderer"
+  description: TypeScript definitions for react-test-renderer
+  package_url: https://www.npmjs.com/@types/react-test-renderer
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/react-transition-group"
+  description: TypeScript definitions for react-transition-group
+  package_url: https://www.npmjs.com/@types/react-transition-group
+  version: 2.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/superagent"
+  description: TypeScript definitions for SuperAgent
+  package_url: https://www.npmjs.com/@types/superagent
+  version: 4.1.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17956/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/validator"
+  description: TypeScript definitions for validator.js
+  package_url: https://www.npmjs.com/@types/validator
+  version: 9.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17698/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@types/yup"
+  description: TypeScript definitions for yup
+  package_url: https://www.npmjs.com/@types/yup
+  version: 0.29.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18670/default_d9dab6271253d9850df2c233b4312e776e118959.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.34.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.34.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: babel-plugin-transform-imports
+  description: Transforms member style imports
+  package_url: https://www.npmjs.com/babel-plugin-transform-imports
+  version: 2.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18613/default_773b64a22a37fbf7229b0ace7d1b9ed4bf814edb.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: babel-plugin-transform-react-remove-prop-types
+  description: Remove unnecessary React propTypes from the production build
+  package_url: https://www.npmjs.com/babel-plugin-transform-react-remove-prop-types
+  version: 0.4.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16286/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: bignumber.js
+  description: A library for arbitrary-precision decimal and non-decimal arithmetic
+  package_url: https://www.npmjs.com/bignumber.js
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16433/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: bootstrap-sass
+  description: Bootstrap-sass is a Sass-powered version of Bootstrap 3
+  package_url: https://www.npmjs.com/bootstrap-sass
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16915/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: color
+  description: Color conversion and manipulation with CSS string support
+  package_url: https://www.npmjs.com/color
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: cookie
+  description: HTTP server cookie parsing and serialization
+  package_url: https://www.npmjs.com/cookie
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: enzyme-to-json
+  description: Convert enzyme wrapper to a format compatible with Jest snapshot
+  package_url: https://www.npmjs.com/enzyme-to-json
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16252/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 23.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: fork-ts-checker-webpack-plugin
+  description: Runs typescript type checker and linter on separate process
+  package_url: https://www.npmjs.com/fork-ts-checker-webpack-plugin
+  version: 4.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16622/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: hoist-non-react-statics
+  description: Copies non-react specific statics from a child component to a parent
+    component
+  package_url: https://www.npmjs.com/hoist-non-react-statics
+  version: 3.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: immutable
+  description: Immutable Data Collections
+  package_url: https://www.npmjs.com/immutable
+  version: 3.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+  vulnerabilities:
+  - name: Code Injection in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8j8c-7jfh-h6hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.13.1
+  - name: Denial of Service in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2pr6-76vf-7546
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.13.0
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+- name: mobx-react
+  description: React bindings for MobX. Create fully reactive components
+  package_url: https://www.npmjs.com/mobx-react
+  version: 5.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16661/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: object-hash
+  description: Generate hashes from javascript objects in node and the browser
+  package_url: https://www.npmjs.com/object-hash
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16940/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: quill
+  description: Your powerful, rich text editor
+  package_url: https://www.npmjs.com/quill
+  version: 1.3.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17002/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+  vulnerabilities:
+  - name: Cross-site Scripting in quill
+    cve_id: CVE-2021-3163
+    cve_url: https://github.com/advisories/GHSA-4943-9vgg-gr5r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: react-error-boundary
+  description: Simple reusable React error boundary component
+  package_url: https://www.npmjs.com/react-error-boundary
+  version: 3.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: react-intl
+  description: Internationalize React apps
+  package_url: https://www.npmjs.com/react-intl
+  version: 5.23.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16566/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: react-text-mask
+  description: React input component that accepts mask pattern
+  package_url: https://www.npmjs.com/react-text-mask
+  version: 5.4.3
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18768/default_06010cfa264fa2cbe22d86f1840c7652a6ae4011.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 2.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: superagent
+  description: Elegant &amp; feature rich browser / node HTTP with a fluent API
+  package_url: https://www.npmjs.com/superagent
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16046/default_939338dc71400138c5e4a3464e041bf30f8f82ba.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 9.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in validator.js
+    cve_id: CVE-2021-3765
+    cve_url: https://github.com/advisories/GHSA-qgmg-gppg-76g5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
+- name: virtual-dom
+  description: A batched diff-based DOM rendering strategy
+  package_url: https://www.npmjs.com/virtual-dom
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17611/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 0.29.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/yarn.lock
+  detection_source: package.json
+- name: activerecord
+  description: Databases on Rails
+  package_url: https://rubygems.org/activerecord
+  version: 6.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: gems/ruby-qx/qx.gemspec
+- name: chronic
+  description: Chronic is a natural language date/time parser written in pure Ruby
+  package_url: https://rubygems.org/chronic
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: colorize
+  description: Extends String class or add a ColorizedString with methods to set text
+    color
+  package_url: https://rubygems.org/colorize
+  version: 0.8.1
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18856/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: countries
+  description: All sorts of useful information about every country packaged as pretty
+    little country objects
+  package_url: https://rubygems.org/countries
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19628/default_0c27dd60ad71a3bb03b32c540d094735c1d3fd06.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: date
+  description: A subclass of Object includes Comparable module for handling dates
+  package_url: https://rubygems.org/date
+  version: 3.3.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: devise-async
+  description: Devise Async provides an easy way to configure Devise to send its emails
+    asynchronously using ActiveJob
+  package_url: https://rubygems.org/devise-async
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: dotenv-rails
+  description: Autoload dotenv in Rails
+  package_url: https://rubygems.org/dotenv-rails
+  version: 2.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19404/default_256f314e809c8e6655d38645e0a725102cea782b.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: factory_bot
+  description: Factory_bot provides a framework and DSL for defining and using factories
+    - less error-prone
+  package_url: https://rubygems.org/factory_bot
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19039/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: factory_bot_rails
+  description: Factory_bot_rails provides integration between factory_bot and rails
+    4.2 or newer
+  package_url: https://rubygems.org/factory_bot_rails
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19040/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: fast_blank
+  description: Provides a C-optimized method for determining if a string is blank
+  package_url: https://rubygems.org/fast_blank
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: hamster
+  description: Efficient
+  package_url: https://rubygems.org/hamster
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19709/default_d8421da17a8d807adaa0884c1485b097b8d1ac07.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: http_accept_language
+  description: Find out which locale the user preferes by reading the languages they
+    specified in their browser
+  package_url: https://rubygems.org/http_accept_language
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: httparty
+  description: Makes http fun! Also
+  package_url: https://rubygems.org/httparty
+  version: 0.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18832/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: image_processing
+  description: High-level wrapper for processing images for the web with ImageMagick
+    or libvips
+  package_url: https://rubygems.org/image_processing
+  version: 1.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: 2.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: js-routes
+  description: Generates javascript file that defines all Rails named routes as javascript
+    helpers
+  package_url: https://rubygems.org/js-routes
+  version: 2.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: kaminari
+  description: Kaminari is a Scope &amp;amp; Engine based
+  package_url: https://rubygems.org/kaminari
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18941/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 5.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: gems/ruby-qx/qx.gemspec
+- name: money
+  description: A Ruby Library for dealing with money and currency conversion
+  package_url: https://rubygems.org/money
+  version: 6.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19052/default_2be036aaca5c71baf790e00f1ef80dd37a625905.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.4.6
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rack-timeout
+  description: Rack middleware which aborts requests that have been running for longer
+    than a specified timeout
+  package_url: https://rubygems.org/rack-timeout
+  version: 0.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rails-i18n
+  description: A set of common locale data and translations to internationalize and/or
+    localize your Rails applications
+  package_url: https://rubygems.org/rails-i18n
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19125/default_8cdfa50e17bca4b467d6718a237904b98923651a.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 12.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rest-client
+  description: A simple HTTP and REST client for Ruby
+  package_url: https://rubygems.org/rest-client
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18836/default_669e0ebb464c584b580cfec09e646fddff70c02a.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: gems/bess/bess.gemspec
+- name: rspec-json_expectations
+  description: Set of matchers and helpers to allow you test your APIs responses like
+    a pro
+  package_url: https://rubygems.org/rspec-json_expectations
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rubocop-rails
+  description: Automatic Rails code style checking tool
+  package_url: https://rubygems.org/rubocop-rails
+  version: 2.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: rubocop-rspec
+  description: Code style checking for RSpec files
+  package_url: https://rubygems.org/rubocop-rspec
+  version: 2.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: sassc
+  description: Use libsass with Ruby!
+  package_url: https://rubygems.org/sassc
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19530/default_613f4a81e068e079bd9a85743fffda50ec58cc62.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: sassc-rails
+  description: Integrate SassC-Ruby into Rails
+  package_url: https://rubygems.org/sassc-rails
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19508/default_e4388de496824e0638763f2d5c887a8895c2ceb4.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: stripe-ruby-mock
+  description: A drop-in library to test stripe without hitting their servers
+  package_url: https://rubygems.org/stripe-ruby-mock
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: table_print
+  description: TablePrint turns objects into nicely formatted columns for easy reading
+  package_url: https://rubygems.org/table_print
+  version: 1.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19458/default_fd702bb5ab99b2b2c899a9d0905041623a8021f9.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: test-unit
+  description: Test-unit
+  package_url: https://rubygems.org/test-unit
+  version: 3.6.1
+  license: Ruby,Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18844/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: timecop
+  description: A gem providing "time travel" and "time freezing" capabilities, making
+    it dead simple to test time-dependent code
+  package_url: https://rubygems.org/timecop
+  version: 0.9.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18861/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: validate_url
+  description: Library for validating urls in Rails
+  package_url: https://rubygems.org/validate_url
+  version: 1.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 3.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
+- name: wisper
+  description: A micro library providing objects with Publish-Subscribe capabilities
+  package_url: https://rubygems.org/wisper
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19471/default_d33887450b77611510d0d85903f97e439f39dec3.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: gems/bess/bess.gemspec
+- name: wisper-rspec
+  description: Rspec matchers and stubbing for Wisper
+  package_url: https://rubygems.org/wisper-rspec
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/houdini3/blob/main/Gemfile.lock
+  detection_source: Gemfile
